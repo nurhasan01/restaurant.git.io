@@ -1,0 +1,220 @@
+*{
+  margin: 0;
+  padding: 0;
+  font-family: 'Poppins', sans-serif;
+}
+
+/* FONT START */
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+/* FONT END */
+
+/* HEADER START */
+
+main{
+  background-image: url(img/mainbg.jpg);
+  height: 1000px;
+  position: relative;
+  
+}
+
+header {
+  width: 100%;
+  height: 100px;
+  background: transparent;
+}
+
+.logo{
+  width: 20%;
+  margin-left: 5%;
+  float: left;
+}
+
+.logo img{
+  height: 150px;
+  width: 350px;
+  cursor: pointer;
+  margin-top: -20px;
+}
+
+.navbar{
+  width: 50%;
+  float: right;
+  margin-right: 22%;
+  
+  
+}
+
+nav ul li{
+  display: inline-flex;
+  line-height: 110px;
+  margin-left: 20px;
+  
+}
+
+nav ul li a{
+  text-decoration: none;
+  color: #691717;
+  font-weight: 600;
+  text-transform: uppercase;
+  font-size: 20px;
+  /* padding: 10px 15px; */
+}
+
+nav ul li a:hover{
+  color: white;
+}
+
+#active{
+  color: white;
+}
+
+.button{
+  float: right;
+  margin-right: 10%;
+  margin-top: -72px;
+}
+
+.button input[type="button"]{
+  color: #691717;
+  font-weight: 600;
+  text-transform: uppercase;
+  font-size: 20px;
+  border: none;
+  
+  background: transparent;
+  padding: 10px 20px;
+  text-align: center;
+}
+.button input[type="button"]:hover{
+  background-color: white;
+  color: #cc9b14;
+  border-radius: 20px;
+}
+
+#sgnup{
+  background-color: white;
+  color: #cc9b14;
+  border-radius: 20px;
+}
+
+/* HEADER END */
+
+/* TITLE START */
+
+.title{
+  width: 30%;
+  float: left;
+  margin-left: -290px;
+  margin-top: 300px;
+  color: #691717;
+  text-align: justify;
+}
+
+.title h1{
+  text-transform: capitalize;
+  font-size: 38px;
+  margin-bottom: 20px;
+}
+
+.title p{
+  font-size: 20px;
+   margin-bottom: 20px;
+}
+
+
+#title-btn{
+   color: #691717;
+  font-weight: 600;
+  text-transform: uppercase;
+  font-size: 20px;
+  border: none;
+  border-radius: 20px; 
+  padding: 10px 20px;
+  text-align: center;
+}
+
+main img{
+  float: right;
+  width: 1000px;
+  height: 1000px;
+  margin-top: 42px;
+  
+}
+
+/* MAIN END */
+
+/* CARD START */
+
+.about{
+  width: 80%;
+  height: auto;
+  display: flex;
+  padding-left: 25%;
+ margin-bottom: 100px;
+}
+
+
+.card{
+  width: 18%;
+  height: 200px; 
+  justify-content: space-between;
+  color: rgb(84, 83, 83);
+  margin-right: 5%;
+  text-align: center;
+}
+
+.card h3{
+  text-transform: capitalize;
+  font-size: 25px;
+}
+
+.card p{
+  
+  font-size: 20px;
+}
+
+.sec3{
+  background-color: gainsboro;
+  width: 100%;
+  height: auto;
+}
+
+.menu{
+  display: flex;
+  margin-left: 15%;
+  
+  margin-top: 150px;
+  margin-bottom: 150px;
+  
+}
+
+.menu .card{
+  margin-left: 5%;
+  background-color: #cc9b14;
+  width: 280px;
+  height: auto;
+  color: white;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  box-shadow: 1px 1px 7px 0px rgb(113, 113, 113);
+}
+
+
+
+.menu .card img{
+  width: 280px;
+  height: 320px;
+
+}
+
+h3{
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.card p {
+  margin-bottom: 20px;
+  padding: 0 15px;
+}

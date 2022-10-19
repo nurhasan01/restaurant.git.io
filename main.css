@@ -13,7 +13,7 @@
 /* HEADER START */
 
 main{
-  background-image: url(img/mainbg.jpg);
+  background-image: url(mainbg.jpg);
   height: 1000px;
   position: relative;
   
